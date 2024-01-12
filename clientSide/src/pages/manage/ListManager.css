@@ -1,0 +1,136 @@
+@import url('https://free.bboxtype.com/embedfonts/?family=FiraGO:400');
+
+.lists-container{
+    grid-column: 2/span 5;
+    grid-row: 2/span 6;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+    font-family: 'FiraGO', sans-serif !important;
+    color: #505050;
+}
+
+.multi-select-dropdown {
+    position: relative;
+}
+
+.selected-users {
+display: flex;
+flex-wrap: wrap;
+padding: 5px;
+border: 1px solid #ccc;
+border-radius: 4px;
+min-height: 40px;
+align-items: center;
+}
+
+.selected-users span {
+background-color: #007bff;
+color: #fff;
+padding: 2px 5px;
+margin: 2px;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.selected-users span:hover {
+background-color: #0056b3;
+}
+
+.selected-users span::after {
+content: ' ';
+display: inline-block;
+width: 10px;
+}
+
+.selected-users span:last-child::after {
+display: none;
+}
+
+.selected-services {
+display: flex;
+flex-wrap: wrap;
+padding: 5px;
+border: 1px solid #ccc;
+border-radius: 4px;
+min-height: 40px;
+align-items: center;
+}
+
+.selected-services span {
+background-color: #007bff;
+color: #fff;
+padding: 2px 5px;
+margin: 2px;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.selected-services span:hover {
+background-color: #0056b3;
+}
+
+.selected-services span::after {
+content: ' ';
+display: inline-block;
+width: 10px;
+}
+
+.selected-services span:last-child::after {
+display: none;
+}
+
+.manage-form{
+    border: 1px solid rgb(0,0,0,0.3);
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgb(249,185,88,0.2);
+    width: 30%;
+    overflow: auto;
+    height: 50%;
+}
+
+.forms-container-mui{
+    grid-column: 1/span 3;
+    display: flex !important;
+    /* grid-template-columns: auto auto auto; */
+    padding: 1% !important;
+    gap: 1%;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 80%;
+    background-color: transparent !important;
+}
+
+/* .currency-form{
+    grid-column: 1/span 1;
+}
+.proj-type-form{
+    grid-column: 2/span 1;
+} 
+.service-form{
+    grid-column: 1/span 1;
+} 
+.pay-status-form{
+    grid-column: 2/span 1;
+} 
+.specialty-form{
+    grid-column: 1/span 1;
+}  */
+
+
+/* Media query for viewport width less than 768px */
+@media (max-width: 767px) {
+    .lists-container{
+        grid-column: 2/span 5;
+        grid-row: 2/span 6;
+        font-family: 'FiraGO', sans-serif !important;
+        color: #505050;
+    }
+    .forms-container-mui{
+        display: flex !important;
+        padding: 0px !important;
+        flex-direction: column;
+    }
+}
+

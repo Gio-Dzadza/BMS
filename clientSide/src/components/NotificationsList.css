@@ -1,0 +1,86 @@
+.notific-list-heading{
+    margin: 0px 15px !important;
+}
+
+.notific{
+    grid-column: 2/span 4;
+    grid-row: 3/span 4;
+    padding: 0px 5px;
+    margin: 0px 10px;
+    overflow-y: auto;
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.notific-main-list-cont-mui{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.notific-list-ul{
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.notification {
+    cursor: pointer;
+    height: 51px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 3px 30px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.7s ease, width 0.7s ease;
+    justify-content: space-between;
+    font-family: 'FiraGO', sans-serif !important;
+}
+
+.li-cont{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+.notification.read {
+    background-color: #b0d8e7;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.notification.unread {
+    background-color: #f1c0c0;
+    display: block;
+    width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 38px;
+}
+
+.read-all-btn{
+    margin-top: 10px !important;
+}
+
+/* Media query for viewport width less than 768px */
+@media (max-width: 767px) {
+    .notification.read {
+        background-color: #73a8bd;
+        width: 100%;
+        overflow: scroll;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+
+
+
+
+
+
+
+

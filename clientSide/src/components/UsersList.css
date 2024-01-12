@@ -1,0 +1,80 @@
+@import url('https://free.bboxtype.com/embedfonts/?family=FiraGO:400');
+
+.custom-cell{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.actions-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-image-container{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.user-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.form-heading{
+    padding: 10px 0px;
+    font-family: 'FiraGO', sans-serif !important;
+    color: #505050;
+}
+
+.reg-form{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+}
+
+.input-label{
+    font-family: 'FiraGO', sans-serif !important;
+}
+
+.select-label{
+    font-family: 'FiraGO', sans-serif !important;
+}
+
+.user-type{
+    grid-column: 1/span 2;
+}
+
+.user-specialty{
+    grid-column: 1/span 2;
+}
+
+.user-status{
+    grid-column: 1/span 2;
+}
+
+.upreg-btn{
+    grid-column: 1/span 2;
+    display: flex;
+    justify-content: space-around;
+}
+
+.close-btn-container{
+    grid-column: 1/span 2;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.close-btn{
+    width: 35%;
+}
+
+.upload-btn{
+    background-color:transparent !important;
+    color: #707070 !important;
+}
+

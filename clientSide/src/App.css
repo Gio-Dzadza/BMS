@@ -1,0 +1,60 @@
+.App{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 269px auto auto auto auto auto;
+  grid-template-rows: 50px auto auto auto auto auto;
+  gap: 5px;
+  position: relative;
+}
+
+/* Create an overlay with the background image */
+.App::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('./assets/bg1.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+  filter: blur(3px); /* Adjust the blur amount as needed */
+  opacity: 0.7; /* Adjust the opacity as needed (0.0 to 1.0) */
+  z-index: -1; /* Place the overlay behind the content */
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input{
+  width: 300px;
+  height: 60px;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.card{
+  width: 500px;
+  height: 170px;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+#updateInput{
+  width: 100px;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+/* Media query for viewport width less than 768px */
+@media (max-width: 767px) {
+  .App {
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: 50px auto auto auto auto auto;
+  }
+}

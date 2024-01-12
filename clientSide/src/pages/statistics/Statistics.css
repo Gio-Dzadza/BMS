@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto&display=swap');
+.statContainer{
+    width: 99%;
+    margin-top: 50px;
+    grid-column: 3/span 2;
+    grid-row: 3/span 4;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.users-stat-box{
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    font-family: 'Noto Sans', sans-serif !important;
+}
+
+.projects-stat-box{
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: 'Noto Sans', sans-serif !important;
+}
+
+.link{
+    text-decoration: none;
+    color: #3c3c3c;
+}
+
+.label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    background: transparent;
+    background-color: #73a8bd;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+}
+
+.inner-box-user-stat{
+    background-image: url('../../assets/icons/meeting.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 200px;
+}
+
+.inner-box-project-stat{
+    background-image: url('../../assets/icons/statistics.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 200px;
+}
+
+.proj-stat-main-cont{
+    width: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.mui-cont{
+    grid-column: 1/span 4;
+}
+
+.charts-cont{
+    grid-column: 1/span 4;
+    width: 50%;
+}
+
+.btns-cont{
+    width: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.proj-btns-cont{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.btn-container{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    width: 35%;
+}
+
+.proj-btn{
+    width: 15%;
+}
+
+/* Media query for viewport width less than 768px */
+@media (max-width: 767px) {
+    .statContainer{
+        width: 99%;
+        margin-top: 50px;
+        grid-column: 2/span 5;
+        grid-row: 3/span 4;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+
+
