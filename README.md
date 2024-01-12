@@ -97,7 +97,7 @@ This system is deployed on a DigitalOcean Ubuntu server.
 
 ## Getting Started 🚀
 
-1. Clone the repository.
+1. Clone the repository or download files on local machine.
 2. Install dependencies for both the client and server.
-3. Set up your MySQL database and configure environment variables.
+3. Set up your MySQL database according to dump file and configure environment variables.
 4. Run the application locally.
