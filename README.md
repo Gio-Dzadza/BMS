@@ -2,6 +2,8 @@
 
 Welcome to the Business Process Management System – an advanced and feature-rich web application designed to streamline and optimize organizational processes for businesses managing clients and projects. This system is built using cutting-edge technologies and libraries, providing a robust platform for administrators, bookkeepers, and regular employees to efficiently manage and monitor various aspects of their business processes.
 
+[open the project on this Link: (https://104.248.129.121/)] 
+
 ## Features 🚀
 
 - **User Management:**
@@ -30,7 +32,7 @@ Welcome to the Business Process Management System – an advanced and feature-ri
   
 ## Technologies Used 💻
 
-### Client-Side (React JS)
+### Client-Side (React JS) 🌐
 
 - @emotion/react
 - @emotion/styled
@@ -51,7 +53,7 @@ Welcome to the Business Process Management System – an advanced and feature-ri
 - Web-vitals
 - Xlsx
 
-### Server-Side (Node.js and Express)
+### Server-Side (Node.js and Express) 🚀
 
 - Archiver
 - Axios
